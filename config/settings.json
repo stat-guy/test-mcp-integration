@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "mcp-test",
+    "version": "0.1.0",
+    "debug": true
+  },
+  "features": {
+    "logging": true,
+    "metrics": false,
+    "notifications": true
+  },
+  "api": {
+    "endpoint": "https://api.example.com",
+    "timeout": 30,
+    "retry_attempts": 3
+  }
+}
